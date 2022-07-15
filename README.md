@@ -13,8 +13,8 @@
 
 ## 参考项目、文章及视频
 
-- 在壳技术中利用了`Process Hollowing`技术：[https://github.com/psbazx/PE_shell](https://github.com/psbazx/PE_shell)
-- 分析了`Stuxnet Skeeyah Taidoor`等`malware`中使用的各种`Process Hollowing`技术的变种：[https://www.youtube.com/watch?v=9L9I1T5QDg4](https://www.youtube.com/watch?v=9L9I1T5QDg4)
-- 十分详细地介绍了`Process Hollowing`技术的整个流程：[https://github.com/m0n0ph1/Process-Hollowing](https://github.com/m0n0ph1/Process-Hollowing)
+- 在壳技术中利用了Process Hollowing技术：[https://github.com/psbazx/PE_shell](https://github.com/psbazx/PE_shell)
+- 分析了`Stuxnet Skeeyah Taidoor`等`malware`中使用的各种Process Hollowing技术的变种：[https://www.youtube.com/watch?v=9L9I1T5QDg4](https://www.youtube.com/watch?v=9L9I1T5QDg4)
+- 十分详细地介绍了Process Hollowing技术的整个流程：[https://github.com/m0n0ph1/Process-Hollowing](https://github.com/m0n0ph1/Process-Hollowing)
 - 利用动调的方式介绍了该技术：[https://www.ired.team/offensive-security/code-injection-process-injection/process-hollowing-and-pe-image-relocations](https://www.ired.team/offensive-security/code-injection-process-injection/process-hollowing-and-pe-image-relocations)
 - 使用`C#`编写的十分简洁的`Hollowing with Shellcode`程序：[https://github.com/chvancooten/OSEP-Code-Snippets/blob/main/Shellcode%20Process%20Hollowing/Program.cs](https://github.com/chvancooten/OSEP-Code-Snippets/blob/main/Shellcode%20Process%20Hollowing/Program.cs)

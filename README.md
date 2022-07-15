@@ -8,6 +8,7 @@
 2. Hollowing with Shellcode
 
 `Hollowing with EXE`需要我们手动将一个EXE文件映射到内存，包括：文件头的映射、各个节的映射、重定位及修改寄存器值等操作，较为繁琐
+
 `Hollowing with Shellcode`只需要我们找到最关键的程序入口点`AddressOfEntryPoint`后，将shellcode写入到该地址即可，无需考虑重定位及修改寄存器等操作
 
 ## 参考项目、文章及视频

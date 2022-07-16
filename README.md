@@ -11,7 +11,7 @@
 
 `Hollowing with Shellcode`只需要我们找到最关键的程序入口点`AddressOfEntryPoint`后，将shellcode写入到该地址即可，无需考虑重定位及修改寄存器等操作
 
-注：在填入shellcode前请先使用`0x31`对其进行异或，在函数`HollowingWithShellcode`中存在对shellcode的异或操作。
+注：在填入shellcode前请先使用`0x31`对其进行异或，在函数`HollowingWithShellcode`中存在对shellcode的异或操作
 
 ## 参考项目、文章及视频
 

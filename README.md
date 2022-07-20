@@ -9,7 +9,7 @@
 
 `Hollowing with EXE`需要我们手动将一个EXE文件映射到内存，包括：文件头的映射、各个节的映射、重定位及修改寄存器值等操作，较为繁琐，但整个PE文件的映射操作更加符合规范
 
-`Hollowing with Shellcode`只需要我们找到最关键的程序入口点`AddressOfEntryPoint`后，将shellcode写入到该地址即可，无需考虑重定位及修改寄存器等操作，但是对`shellcode`长度有一定限制，具体可以看`Issuse`
+`Hollowing with Shellcode`只需要我们找到最关键的程序入口点`AddressOfEntryPoint`后，将shellcode写入到该地址即可，无需考虑重定位及修改寄存器等操作，但是对`shellcode`长度有一定限制，具体可以[这个Issuse](https://github.com/CCCougar/Hollowing-with-Shellcode/issues/1)
 
 注：在填入shellcode前请先使用`0x31`对其进行异或，在函数`HollowingWithShellcode`中存在对shellcode的异或操作
 
